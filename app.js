@@ -89,21 +89,21 @@ const main = async () => {
     await crearPublicacion(
       usuario1.id,
       'Mi primera publicación',
-      'Este es el contenido de mi post, creado con Sequelize.'
+      'Este es el primer contenido de mi post.'
     );
     
     await crearPublicacion(
       usuario1.id,
-      'Aprendiendo a programar',
-      'Hoy aprendí sobre relaciones en bases de datos. ¡Es muy interesante!'
+      'Mi segunda publicación',
+      'Este es el segundo contenido de mi post.'
     );
     
     const usuario2 = await crearUsuario('María', 'maria@gmail.com');
     
     await crearPublicacionDesdeUsuario(
       usuario2,
-      'Bienvenido a mi blog',
-      'Aquí compartiré mis pensamientos sobre tecnología y programación.'
+      'Primera publicacion de María',
+      'Este es el primer contenido de María.'
     );
     
     console.log('\nVERIFICANDO RELACIONES\n');
