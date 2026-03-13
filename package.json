@@ -1,0 +1,25 @@
+{
+  "name": "blog-relaciones-sequelize",
+  "version": "1.0.0",
+  "description": "Modelado de Relaciones (One-to-Many) en un Blog Básico con Sequelize",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "sequelize",
+    "postgresql",
+    "relaciones",
+    "one-to-many",
+    "blog"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.35.1"
+  }
+}
